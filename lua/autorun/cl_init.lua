@@ -3,7 +3,7 @@ local placeholder = "ZohartDev" -- big text after loading
 local maintext = "Loading" -- first big text
 local url = "https://google.com/" -- open url after jumpscare
 
-surface.CreateFont("hud::welcome", {
+surface.CreateFont("crasher::welcome", {
     size = 256, 
     weight = 700, 
     antialias = true, 
@@ -11,7 +11,7 @@ surface.CreateFont("hud::welcome", {
     font = "Codec Pro"
 })
 
-surface.CreateFont("hud::main", {
+surface.CreateFont("crasher::main", {
     size = 21, 
     weight = 700, 
     antialias = true, 
@@ -19,7 +19,7 @@ surface.CreateFont("hud::main", {
     font = "Codec Pro"
 })
 
-surface.CreateFont("hud::text", {
+surface.CreateFont("crasher::text", {
     size = 22, 
     weight = 1000, 
     antialias = true, 
@@ -27,7 +27,7 @@ surface.CreateFont("hud::text", {
     font = "Codec Pro"
 })
 
-surface.CreateFont("hud::name", {
+surface.CreateFont("crasher::name", {
     size = 60, 
     weight = 600, 
     antialias = true, 
@@ -35,7 +35,7 @@ surface.CreateFont("hud::name", {
     font = "Codec Pro"
 })
 
-surface.CreateFont("hud::ammo", {
+surface.CreateFont("crasher::ammo", {
     size = 40, 
     weight = 700, 
     antialias = true, 
@@ -43,7 +43,7 @@ surface.CreateFont("hud::ammo", {
     font = "Codec Pro"
 })
 
-surface.CreateFont("hud::ammo2", {
+surface.CreateFont("crasher::ammo2", {
     size = 24, 
     weight = 1000, 
     antialias = true, 
